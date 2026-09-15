@@ -20,6 +20,25 @@ Before application code:
 
 Acceptance: the project can state precisely why its AMD integration qualifies and how it will be demonstrated.
 
+## Infrastructure readiness — AMD Developer Cloud credit
+
+Status: **REQUEST SUBMITTED / AWAITING VALIDATION**
+
+On 2026-09-14, the AMD AI Developer Program cloud-credit request was submitted for **AMD Developer Cloud — Direct GPU Access**.
+
+Requested use: run and evaluate the UCII AMD Authority Agent autonomous AI workload on AMD Instinct GPU infrastructure using ROCm-compatible frameworks, with UCII independently providing cryptographic identity, bounded delegated authority, revocation, and verifiable provenance around consequential actions.
+
+AMD's confirmation page stated:
+
+- account validation is required before activation;
+- activation instructions are expected by email within 3 business days;
+- approvals may be delayed due to high demand;
+- if credits have not arrived within 5 business days, contact `devcloudrequests@amd.com`;
+- new AMD Developer Cloud users should log in with AMD SSO credentials to activate their cloud account;
+- the member-perks page states the introductory AMD Developer Cloud credit is **$100** and expires **30 days after activation**.
+
+Operational rule: do not treat the credit as available until AMD sends activation instructions and the credit is confirmed active. Avoid starting the 30-day activation window earlier than needed for the build.
+
 ## Objective 1 — Minimal AMD workload
 
 Create the smallest reproducible autonomous AI workload that genuinely executes on AMD-backed infrastructure/ROCm and can emit one structured proposed action.
